@@ -1,0 +1,5 @@
+4) git clone https://github.com/TeamDoubleA/SI_2022_lab1_161241  // go klonira remote repoto vo lokalno
+5) git add . // (dodavanje na fajlovi vo sostojba untracked)
+git commit -m "Add 5 items to the shopping list" (se dodavaat promenite i se pravi commit)
+git commit -a -m "Add quantities to the items" (se dodavaat novite izmeni i se pravi povtorno commit)
+6)

@@ -1,5 +1,5 @@
-bread
-milk 
-egg
-water
-carrot
+bread x 3
+milk  x 4
+egg   x 5
+water  x 6
+carrot x 7
