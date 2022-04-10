@@ -3,3 +3,5 @@ milk  x 8
 egg   x 5
 water  x 6
 carrot x 9
+drink  x 6
+donut  x 10

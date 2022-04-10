@@ -25,4 +25,41 @@ Date:   Sun Apr 10 23:01:44 2022 +0200
 9) git push -u origin --all // se vrsi sihronizacija na lokalnoto repo so remote
 10) git checkout branch1 // pridvizi se na branch1
 11) git commit -a -m "Change quantity of item #5" // se vrsi promena na tekovnitot branch(branch1) i se pravi commit
-12)
+12) git checkout master // se predvizuva nazad kon master
+13) git commit -a -m "Change quantity of item #2" // se vrsi promena na master i se pravi nov commit
+14) git push -u origin --all  // se sinhroniziraat promenite na lokalnoto so remote repo
+15) git checkout branch2 // pridvizi se na branch2
+16) git commit -a -m "Modify item #4" // se vrsi promena i se dodava (nov) commit
+17) git log // se proveruvaat logs na branch2
+18) git add . // se pravi nova promena i se dodavaat
+    git commit --amend -m "Modify item #4 and add item #6" // se pravi promena na porakata na posledniot commit so novite promeni posle tekovniot
+19) git log // se proveruvaat tekovnite logs
+
+commit d67c2afc3eea18f953e06ccf500037643c594842 (HEAD -> branch2)
+Author: TeamDoubleA <antonio.cekovski@students.finki.ukim.mk>
+Date:   Sun Apr 10 23:26:32 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 24571cb28828b7b7987469ef404468b9d5ed572e (origin/branch2)
+Author: TeamDoubleA <antonio.cekovski@students.finki.ukim.mk>
+Date:   Sun Apr 10 23:16:13 2022 +0200
+
+    Add quantities to the items
+
+commit d6ddd87d830e223808daba14a9373f0c8b50c8d6
+Author: TeamDoubleA <antonio.cekovski@students.finki.ukim.mk>
+Date:   Sun Apr 10 23:15:15 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 7e762250c0bf5c59844fac70fee0d7c82b323e17
+Author: TeamDoubleA <52544416+TeamDoubleA@users.noreply.github.com>
+Date:   Sun Apr 10 23:01:44 2022 +0200
+
+20)git checkout master //pridvizi se na master
+git merge branch1 //se spojuva grankata master so branch1, tuka nema konflikt zatoa sto nema promeni na master od posledniot zaednicki commit so branch1
+21)git merge branch2 (se spojuva grankata master so branch2, tuka ima konflikt zatoa so ima promeni na isti mesta vo fajlot na dvata brancha master i branch2
+22)git add . //se pravi nova promena i se dodavaat
+git commit -a -m "Add docs" //se pravi nov commit
+23)git push -u origin --all // se sinhroniziraat site lokalni promeni so remote repo
